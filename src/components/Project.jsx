@@ -16,7 +16,6 @@ const Project = ({ picture, projectName = "Project Name", projectDetails, projec
                 {projectName}
             </h2>
 
-            {/*TODO: Make modal for See Details*/}
             <button
                 className='px-1 hover:px-0 w-full flex flex-row items-end justify-end duration-300'
                 onClick={toggleModal}

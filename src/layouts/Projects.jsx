@@ -2,8 +2,8 @@ import Project from "../components/Project.jsx";
 import SamplePic from '../assets/sample-project.png';
 import ARWayangGolek from '../assets/ar-wayang-golek.jpg';
 import ARAnimalCard from '../assets/ar-animal-card.jpg';
-import PhotoBox from '../assets/PhotoBox.jpg';
-import PlantSense from '../assets/PlantSense.jpg';
+import PhotoBox from '../assets/PhotoBox.png';
+import Calmind from '../assets/Calmind.jpg';
 
 const Projects = () => {
     return (
@@ -25,9 +25,10 @@ const Projects = () => {
                          projectDetails="AR Wayang Golek is an individual project that leverages augmented reality (AR) technology, developed using Unity and Vuforia. The app allows users to experience the traditional Indonesian art of Wayang Golek in an interactive way by scanning markers to bring 3D models of Wayang Golek characters to life."
                          projectUrl="https://binusianorg-my.sharepoint.com/personal/riki_dougall_binus_ac_id/_layouts/15/guestaccess.aspx?share=Eh31nOK70QVMo3JWMHuMTHQBhmVll3rvkmx7Ki3IRUy-Ow&e=gHc1Sq"
                 />
-                <Project picture={PlantSense}
-                         projectName="PlantSense"
-                         projectUrl="https://example.com/"
+                <Project picture={Calmind}
+                         projectName="Calmind"
+                         projectDetails="Calmind is a mental health support application. The main features are Motivation, Talk Mind, and Talk Therapy. This is a group project, i am responsible for creating UI using React.js for Dashboard, Motivation, and Talk Therapy."
+                         projectUrl="https://github.com/Richardrflsn/calmind-website.git"
                 />
             </div>
         </div>

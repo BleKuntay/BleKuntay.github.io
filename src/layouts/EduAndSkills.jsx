@@ -17,10 +17,11 @@ const EduAndSkills = () => {
                 </ul>
             </div>
             <div className='flex flex-col items-center text-gray-200 bg-secondary py-10 rounded-lg shadow-2xl'>
-                <h2 className='text-6xl font-semibold tracking-wider'>Education</h2>
+                <h2 className='text-6xl font-semibold tracking-wider'>Education &<br/> Organization</h2>
                 <ul className='flex flex-col gap-3 mt-3 text-center'>
                     <li className='text-utils'><strong className='text-white'>Bina Nusantara University</strong><br/>Computer Science | 2022 - now</li>
                     <li className='text-utils'><strong className='text-white'>Mardi Yuana High School Sukabumi</strong><br/>Science | 2019 - 2022</li>
+                    <li className='text-utils'><strong className='text-white'>BNCC</strong><br/>Member | 2023 - 2024</li>
                 </ul>
             </div>
             <div className="flex flex-col items-center text-gray-200 bg-secondary py-10 rounded-lg shadow-2xl">
@@ -42,20 +43,21 @@ const EduAndSkills = () => {
                              className='bg-blue-700 w-fit p-3 rounded-lg hover:bg-blue-800 hover:transition '/>
                         <span>Riki McDougall</span>
                     </a>
-                    <div className="cursor-default flex flex-row items-center justify-start gap-3 text-white">
-                        <img src={Mail} alt="" className='bg-black p-3 rounded-lg'/>
+                    <a href="mailto:riki.dougall@binus.ac.id" className="flex flex-row items-center justify-start gap-3 text-white">
+                        <img src={Mail} alt="" className='bg-black hover:bg-gray-900 p-3 rounded-lg'/>
                         <span>riki.dougall@binus.ac.id</span>
-                    </div>
+                    </a>
                     <a href="https://github.com/BleKuntay"
                        className='rounded-lg flex flex-row items-center justify-start gap-3 text-white'>
                         <img src={Github} alt=""
                              className='bg-black w-fit p-3 rounded-lg hover:bg-gray-900 hover:transition'/>
                         <span>Github</span>
                     </a>
-                    <div className="cursor-default flex flex-row items-center justify-start gap-3 text-white">
-                        <img src={Phone} alt="" className='bg-black p-3 rounded-lg'/>
+                    <a href="https://wa.me/6281260004960"
+                       className="cursor-default flex flex-row items-center justify-start gap-3 text-white">
+                        <img src={Phone} alt="" className='bg-black hover:bg-gray-900 p-3 rounded-lg'/>
                         <span>+62 812 6000 4960</span>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

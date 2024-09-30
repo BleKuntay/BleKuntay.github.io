@@ -2,7 +2,7 @@ import Github from '../assets/github.svg';
 import LinkedIn from '../assets/linkedin.svg';
 import Phone from '../assets/phone.svg';
 import Mail from '../assets/mail.svg';
-import Profile from '../assets/img.png';
+import Profile from '../assets/Profile.jpg';
 
 const About = () => {
     return(
@@ -20,7 +20,7 @@ const About = () => {
                 </p>
             </div>
             <div className='w-[40%] flex flex-col items-center justify-center gap-10'>
-                <div className="rounded-full h-[60%] aspect-square flex items-center justify-center p-1 shadow-xl bg-gray-500">
+                <div className="rounded-full h-[50%] aspect-square flex items-center justify-center p-1 shadow-xl bg-gray-500">
                     <img src={Profile} alt="" className='rounded-full'/>
                 </div>
             </div>
