@@ -4,16 +4,27 @@ import ARWayangGolek from '../assets/ar-wayang-golek.jpg';
 import ARAnimalCard from '../assets/ar-animal-card.jpg';
 import PhotoBox from '../assets/PhotoBox.png';
 import Calmind from '../assets/Calmind.jpg';
+import PlantSense from '../assets/PlantSense.jpg';
 
 const Projects = () => {
     return (
         <div className='flex flex-col items-center justify-center mt-10 gap-5 text-white'>
-            <h1 className='text-5xl font-semibold tracking-wide'>Projects</h1>
-            <div className="flex flex-row justify-center gap-3">
+            <h1 className='text-3xl xl:text-5xl font-semibold tracking-wide'>Projects</h1>
+            <div className="flex flex-col items-center justify-center xl:flex-row gap-3">
+                <Project picture={PlantSense}
+                         projectName="PlantSense"
+                         projectDetails="PlantSense is an IoT project using Java (Spring Boot) & React designed to monitor plant conditions in real-time and perform automatic or manual irrigation. This project uses ESP32 and various sensors to read environmental data, and it provides a web interface to monitor plant conditions."
+                         projectUrl="https://github.com/BleKuntay/plantsense.git"
+                />
                 <Project picture={PhotoBox}
                          projectName="PhotoBox"
                          projectDetails="PhotoBox is a photo storage application that allows users to securely upload, store, and manage their photos. It is built using a modern tech stack that includes React for the frontend, Tailwind CSS for styling, Express.js for the backend, PostgreSQL for the database, and AWS for cloud storage."
                          projectUrl="https://github.com/BleKuntay/photobox"
+                />
+                <Project picture={Calmind}
+                         projectName="Calmind"
+                         projectDetails="Calmind is a mental health support application. The main features are Motivation, Talk Mind, and Talk Therapy. This is a group project, I am responsible for creating UI using React.js for Dashboard, Motivation, and Talk Therapy."
+                         projectUrl="https://github.com/Richardrflsn/calmind-website.git"
                 />
                 <Project picture={ARAnimalCard}
                          projectName="AR Animal Card"
@@ -24,11 +35,6 @@ const Projects = () => {
                          projectName="AR Wayang Golek"
                          projectDetails="AR Wayang Golek is an individual project that leverages augmented reality (AR) technology, developed using Unity and Vuforia. The app allows users to experience the traditional Indonesian art of Wayang Golek in an interactive way by scanning markers to bring 3D models of Wayang Golek characters to life."
                          projectUrl="https://binusianorg-my.sharepoint.com/personal/riki_dougall_binus_ac_id/_layouts/15/guestaccess.aspx?share=Eh31nOK70QVMo3JWMHuMTHQBhmVll3rvkmx7Ki3IRUy-Ow&e=gHc1Sq"
-                />
-                <Project picture={Calmind}
-                         projectName="Calmind"
-                         projectDetails="Calmind is a mental health support application. The main features are Motivation, Talk Mind, and Talk Therapy. This is a group project, i am responsible for creating UI using React.js for Dashboard, Motivation, and Talk Therapy."
-                         projectUrl="https://github.com/Richardrflsn/calmind-website.git"
                 />
             </div>
         </div>

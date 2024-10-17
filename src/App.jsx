@@ -8,13 +8,14 @@ import Footer from "./layouts/Footer.jsx";
 function App() {
     return (
         <div className='bg-primary min-h-screen w-screen'>
-              <Header />
-              <About />
-              <EduAndSkills />
-              <Projects />
-              <Footer />
+            <Header />
+            <About />
+            <EduAndSkills />
+            <Projects />
+            <Footer />
         </div>
-)
+    )
 }
+
 
 export default App
